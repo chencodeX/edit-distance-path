@@ -25,7 +25,7 @@ def min_cost_path(cost, operations):
     row = cost.shape[0] - 1
     col = cost.shape[1] - 1
     # print(cost)
-    while row > 0 and col > 0:
+    while row > 0 or col > 0:
 
         if cost[row - 1][col - 1] <= cost[row - 1][col] and cost[row - 1][col - 1] <= cost[row][col - 1]:
             # print(1,row - 1,col - 1)
