@@ -103,7 +103,7 @@ def edit_distance_dp(seq1, seq2):
 
 if __name__ == '__main__':
 
-    seq1 = u"大上海市在沪过节#上海 #春日"
+    seq1 = u"大上海市在沪过节#上海 #春节"
     seq2 = u"上海市在沪过节"
 
     print(len(seq1), len(seq2))
